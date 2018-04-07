@@ -10,12 +10,13 @@ end
 
 def using_reverse(array)
   array.reverse
+  binding.pry
 end
 
 def using_first(array)
   array.first
 end
-  binding.pry
+  
 def using_last(array)
 
 end
