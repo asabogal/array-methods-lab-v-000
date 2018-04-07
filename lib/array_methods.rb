@@ -1,5 +1,3 @@
-require 'pry'
-
 def using_include(array, element)
   array.include?(element)
 end
@@ -10,7 +8,6 @@ end
 
 def using_reverse(array)
   array.reverse
-  binding.pry
 end
 
 def using_first(array)
